@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+__pycache__
+/geckodriver.log
+geckodriver.log
+/web_proxies*.txt
+/valid_proxies*.txt
+x_valid_proxies_*.txt
