@@ -267,7 +267,7 @@ class ValidatorByWiktonary(ValidatorByHttpbin):
 def main(process_seq):
     time.sleep(int(process_seq)*30)
     
-    process_count = 6
+    process_count = 1
     
     fs = []
     fs += glob.glob("valid_proxies*.txt")
